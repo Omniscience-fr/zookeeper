@@ -1,0 +1,17 @@
+zookeeper:
+    address: 10.134.94.105:2181,10.134.94.15:2182,10.134.94.105:2183
+    timeout: 30000000
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        password: root
+        url: jdbc:mysql://localhost:3306/springbatch?characterEncoding=utf8
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+
+server:
+    port: 9009
